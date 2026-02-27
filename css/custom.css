@@ -1,17 +1,5 @@
-#page-header::before {
-  display: none !important;
-
-}
-body {
-  background: red !important;
-}
 #post #page-header::before,
-#post #page-header::after,
-#post #page-header .cover-bg,
-#post #page-header .cover-bg::before,
-#post #page-header .cover-bg::after,
-#post #page-header .full_page,
-#post #page-header .full_page::before,
-#post #page-header .full_page::after {
-  pointer-events: none !important;
+#post #page-header::after {
+  transition: none !important;
+  opacity: 0.55 !important;  /* 你可改 0.35~0.75 */
 }
