@@ -1,5 +1,0 @@
-#post #page-header::before,
-#post #page-header::after {
-  transition: none !important;
-  opacity: 0.55 !important;  /* 你可改 0.35~0.75 */
-}
